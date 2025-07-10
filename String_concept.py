@@ -34,12 +34,6 @@ else:
 
 
 
-data = "welcome to regex"
-print(data.split())
-print(data.split(" ")[::-1]) 
-
-
-
 orig_email=input("Enter your email: ")
 orig_password=input("Enter your password: ")
 print("""
@@ -58,9 +52,16 @@ elif  (choice == 2):
 else:
    print("Wrong input")
 
-   
+# split converts the string into list
+data = "welcome to regex"
+print(data.split())
+print(data.split('e'))
+print(data.split(" ")[::-1]) 
+# joins elements of a list into a single string
+print(("").join(data))
+
 print(data.index('e'))  
-# # returns the index of the first occurence of the character 'e'
+# returns the index of the first occurence of the character 'e'
 
 a = 'school'
 b = 'abc123'
@@ -71,7 +72,7 @@ print(c.isalnum())
 print(b.isalpha())
 print(c.isnumeric())
 
-# # ASCII 
+# ASCII 
 d = 65
 print(chr(d))
 
@@ -83,16 +84,6 @@ print(chr(f))
 
 g = 122
 print(chr(g))
-
-# # stopping value is not included
-data = list(range(5,10))
-print(data)
-
-data2 = list(range(1,11,2))
-print(data2)
-
-data3 = list(range(10,1,-2))
-print(data3)
 
 
 
