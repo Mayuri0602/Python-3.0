@@ -22,6 +22,42 @@ print(name.lower())
 print(name.title())
 print(name.count('i'))
 
+
+
+# split converts the string into list
+data = "welcome to regex"
+print(data.split())
+print(data.split('e'))
+print(data.split(" ")[::-1]) 
+# joins elements of a list into a single string
+print(("").join(data))
+
+print(data.index('e'))  
+# returns the index of the first occurence of the character 'e'
+
+a = 'school'
+b = 'abc123'
+c= '1234'
+print(len(a))
+print(a.isalnum())
+print(c.isalnum())
+print(b.isalpha())
+print(c.isnumeric())
+
+# ASCII 
+d = 65
+print(chr(d))
+
+e = 90
+print(chr(e))
+
+f = 'A'
+print(ord(f))
+
+g = 122
+print(chr(g))
+
+
 # Primitive(built-in) datatype like int, float, boolean, strings and 
 # Non-primitive(made by using primitive datatype) datatype include lists, tuples, sets, dictionary
 
@@ -52,38 +88,6 @@ elif  (choice == 2):
 else:
    print("Wrong input")
 
-# split converts the string into list
-data = "welcome to regex"
-print(data.split())
-print(data.split('e'))
-print(data.split(" ")[::-1]) 
-# joins elements of a list into a single string
-print(("").join(data))
-
-print(data.index('e'))  
-# returns the index of the first occurence of the character 'e'
-
-a = 'school'
-b = 'abc123'
-c= '1234'
-print(len(a))
-print(a.isalnum())
-print(c.isalnum())
-print(b.isalpha())
-print(c.isnumeric())
-
-# ASCII 
-d = 65
-print(chr(d))
-
-e = 90
-print(chr(e))
-
-f = 97
-print(chr(f))
-
-g = 122
-print(chr(g))
 
 
 
