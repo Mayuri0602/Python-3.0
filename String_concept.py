@@ -59,10 +59,41 @@ else:
    print("Wrong input")
 
    
+print(data.index('e'))  
+# # returns the index of the first occurence of the character 'e'
 
-data = [23, 45, 67, 11]
+a = 'school'
+b = 'abc123'
+c= '1234'
+print(len(a))
+print(a.isalnum())
+print(c.isalnum())
+print(b.isalpha())
+print(c.isnumeric())
+
+# # ASCII 
+d = 65
+print(chr(d))
+
+e = 90
+print(chr(e))
+
+f = 97
+print(chr(f))
+
+g = 122
+print(chr(g))
+
+# # stopping value is not included
+data = list(range(5,10))
 print(data)
-data.sort()
-print(data)
-data.sort(reverse=True)
-print(data)
+
+data2 = list(range(1,11,2))
+print(data2)
+
+data3 = list(range(10,1,-2))
+print(data3)
+
+
+
+
