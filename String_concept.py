@@ -1,5 +1,6 @@
 # Nested if-else
 
+# String is a datatype that stores a sequence of characters enclosed in quotes.
 # Formatted String:- It is basically used to insert variables or arithmetic operations inside an existing string.  
 
 # Indexing:- Forward, Reverse(starting should be greater than stop)
