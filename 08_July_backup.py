@@ -35,7 +35,7 @@ print(c&d)
 # not :- add 1 to the number and then change the sign
 print(~7)
 
-# xor :- same digits=1 and different digits=0,  e.g. 11=1, 00=1, 10=0, 01=0
+# xor :- same digits=0 and different digits=1,  e.g. 11=0, 00=0, 10=1, 01=1
 print(21^35)
 
 # left shift
